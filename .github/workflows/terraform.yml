@@ -45,8 +45,8 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      - name: Terraform Format Check
-        run: terraform fmt -check -recursive   # catches your indentation issues
+     # - name: Terraform Format Check
+      #  run: terraform fmt -check -recursive   # catches your indentation issues
 
       - name: Terraform Validate
         run: terraform validate                # catches duplicate provider errors

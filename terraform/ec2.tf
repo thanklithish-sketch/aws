@@ -9,7 +9,7 @@ resource "aws_instance" "webins" {
   key_name                    = "secondary account"
   vpc_security_group_ids = [aws_security_group.websg.id] //security groups must be defined within []
   tags = {
-    Name = "webhost-server1"
+    Name = "webhosting-server1"
   }
 }
 # by default vpc creates a eni and then default ebs

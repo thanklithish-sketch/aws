@@ -7,7 +7,7 @@ resource "aws_security_group" "websg" {
   description = "for web tier"
 
 tags= {
-  Name="web_sg"
+  Name="web-security-group"
 }
 }
 # define outbound rules

@@ -1,8 +1,4 @@
-###
-#define region first
-provider "aws" {
-  region = "us-east-1"
-}
+
 # web server deployment(web1)
 resource "aws_instance" "webins" {
   ami                         = "ami-02dfbd4ff395f2a1b"

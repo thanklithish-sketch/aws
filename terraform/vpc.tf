@@ -1,4 +1,4 @@
-## vpc creation for three tier
+### vpc creation for three tier
 resource "aws_vpc" "vpc" {
 cidr_block = "172.25.0.0/25"
 enable_dns_hostnames = true

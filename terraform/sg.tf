@@ -1,5 +1,5 @@
 #security group
-## first create a security group
+
 
 # for web tier
 resource "aws_security_group" "websg" {
